@@ -41,7 +41,8 @@ public interface ObjectMetadata extends Comparable<ObjectMetadata> {
       REDUCED_REDUNDANCY(Tier.STANDARD),
       GLACIER(Tier.ARCHIVE),
       GLACIER_IR(Tier.ARCHIVE),
-      DEEP_ARCHIVE(Tier.ARCHIVE);
+      DEEP_ARCHIVE(Tier.ARCHIVE),
+      OUTPOSTS(Tier.STANDARD);
 
       private final Tier tier;
 
